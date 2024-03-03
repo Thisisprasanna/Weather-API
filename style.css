@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.mainForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.cityName {
+  padding: 10px 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 2px solid hsl(0, 0%, 70%);
+  outline: none;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: hsla(120, 79%, 40%, 0.9);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(120, 79%, 20%, 0.9);
+}
+
+button:active {
+  background-color: hsla(120, 79%, 60%, 0.9);
+}
+
+.card {
+  background-image: linear-gradient(
+    180deg,
+    hsla(200, 100%, 42%, 0.527),
+    hsl(43, 100%, 50%)
+  );
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cityNameDisplay {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.tempDisplay {
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.descDisplay {
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.emojiDisplay {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.errorDisplay {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
